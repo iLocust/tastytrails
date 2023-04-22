@@ -1,0 +1,45 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "name": "Nasi Goreng",
+        "photo": "https://example.com/nasi-goreng.jpg",
+        "chefName": "John Doe",
+        "rating": 4.5,
+        "origin": "Indonesia"
+      },
+      {
+        "id": 2,
+        "name": "Sushi",
+        "photo": "https://example.com/sushi.jpg",
+        "chefName": "Jane Doe",
+        "rating": 4.8,
+        "origin": "Japan"
+      },
+      {
+        "id": 3,
+        "name": "Pizza",
+        "photo": "https://example.com/pizza.jpg",
+        "chefName": "Mario Rossi",
+        "rating": 4.2,
+        "origin": "Italy"
+      },
+      {
+        "id": 4,
+        "name": "Taco",
+        "photo": "https://example.com/taco.jpg",
+        "chefName": "Maria Hernandez",
+        "rating": 4.6,
+        "origin": "Mexico"
+      },
+      {
+        "id": 5,
+        "name": "Pad Thai",
+        "photo": "https://example.com/pad-thai.jpg",
+        "chefName": "Somchai Prasert",
+        "rating": 4.4,
+        "origin": "Thailand"
+      }
+    ]
+  }
+  
