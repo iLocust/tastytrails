@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Sidebar from "../components/Sidebar";
 import Navigation from "../navigation/Navigation";
+import Footer from "../components/Footer";
 
 const LayoutDashboard = (props) => {
   return (
@@ -17,6 +18,7 @@ const LayoutDashboard = (props) => {
             </div>
           </div>
         </div>
+        <Footer/> 
       </main>
     </>
   );

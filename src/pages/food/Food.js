@@ -1,15 +1,17 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-function Discover() {
+
+function Food() {
   const [foods, setFoods] = useState([]);
-  const [numOfCards, setNumOfCards] = useState(4);
 
 
   useEffect(() => {
     axios
       .get("http://localhost:3000/foods")
       .then((response) => {
+        console.log(response.data)
         setFoods(response.data);
       })
       .catch((error) => {
@@ -19,13 +21,9 @@ function Discover() {
 
   return (
     <div className="flex flex-col items-center h-screen">
-      <h1 className="text-4xl font-bold text-center mb-6">Discover</h1>
-      <h2 className="text-lg text-gray-600 text-center mb-10">
-        Check out our collection of helpful cooking tips
-      </h2>
-      <h2 className="text-left text-black text-2xl"> Trending </h2>
+    
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 ">
-        {foods.slice (0, numOfCards).map((food) => (
+        {foods.map((food) => (
           <div
             key={food.id}
             className="bg-white rounded-lg shadow-md overflow-hidden"
@@ -37,9 +35,11 @@ function Discover() {
             />
             <div className="p-4 flex justify-between">
               <div>
+                <Link to={`/food-details/${food.id}`}>
                 <h3 className="text-lg font-medium text-gray-900 mb-2">
                   {food.name}
                 </h3>
+                </Link>
                 <p className="text-gray-600">{food.chefName}</p>
               </div>
               <div className="flex items-center">
@@ -65,6 +65,6 @@ function Discover() {
       </div>
     </div>
   );
-}
+};
 
-export default Discover;
+export default Food;

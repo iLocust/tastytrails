@@ -1,0 +1,129 @@
+{
+    "foods": [
+    {
+    "id": 1,
+    "name": "Nasi Goreng",
+    "photo": "https://source.unsplash.com/featured/?friedrice",
+    "chefName": "John Doe",
+    "rating": 4.5,
+    "origin": "Indonesia"
+    },
+    {
+    "id": 2,
+    "name": "Sushi",
+    "photo": "https://source.unsplash.com/featured/?sushi",
+    "chefName": "Jane Doe",
+    "rating": 4.8,
+    "origin": "Japan"
+    },
+    {
+    "id": 3,
+    "name": "Pizza",
+    "photo": "https://source.unsplash.com/featured/?pizza",
+    "chefName": "Mario Rossi",
+    "rating": 4.2,
+    "origin": "Italy"
+    },
+    {
+    "id": 4,
+    "name": "Taco",
+    "photo": "https://source.unsplash.com/featured/?taco",
+    "chefName": "Maria Hernandez",
+    "rating": 4.6,
+    "origin": "Mexico"
+    },
+    {
+    "id": 5,
+    "name": "Pad Thai",
+    "photo": "https://source.unsplash.com/featured/?tomyum",
+    "chefName": "Somchai Prasert",
+    "rating": 4.4,
+    "origin": "Thailand"
+    },
+    {
+    "id": 6,
+    "name": "Biryani",
+    "photo": "https://source.unsplash.com/featured/?biryani",
+    "chefName": "Rahul Sharma",
+    "rating": 4.7,
+    "origin": "India"
+    },
+    {
+    "id": 7,
+    "name": "Falafel",
+    "photo": "https://source.unsplash.com/featured/?falafel",
+    "chefName": "Ahmed Khalil",
+    "rating": 4.3,
+    "origin": "Middle East"
+    },
+    {
+    "id": 8,
+    "name": "Pho",
+    "photo": "https://source.unsplash.com/featured/?pho",
+    "chefName": "Nguyen Thi",
+    "rating": 4.6,
+    "origin": "Vietnam"
+    },
+    {
+    "id": 9,
+    "name": "Ramen",
+    "photo": "https://source.unsplash.com/featured/?ramen",
+    "chefName": "Taro Tanaka",
+    "rating": 4.8,
+    "origin": "Japan"
+    },
+    {
+    "id": 10,
+    "name": "Churros",
+    "photo": "https://source.unsplash.com/featured/?churros",
+    "chefName": "Luis Rodriguez",
+    "rating": 4.4,
+    "origin": "Spain"
+    },
+    {
+    "id": 11,
+    "name": "Goulash",
+    "photo": "https://source.unsplash.com/featured/?goulash",
+    "chefName": "Peter Nagy",
+    "rating": 4.5,
+    "origin": "Hungary"
+    },
+    {
+    "id": 12,
+    "name": "Kimchi",
+    "photo": "https://source.unsplash.com/featured/?kimchi",
+    "chefName": "Lee Min-ho",
+    "rating": 4.2,
+    "origin": "Korea"
+    },
+    {
+    "id": 13,
+    "name": "Poutine",
+    "photo": "https://source.unsplash.com/featured/?poutine",
+    "chefName": "Jean-Luc Beauclair",
+    "rating": 4.7,
+    "origin": "Canada"
+    },
+    {
+    "id": 14,
+    "name": "Peking Duck",
+    "photo": "https://source.unsplash.com/featured/?peking",
+    "chefName": "Li Wei",
+    "rating": 4.9,
+    "origin": "China"
+    },
+    {
+    "id": 15,
+    "name": "Moussaka",
+    "photo": "https://source.unsplash.com/featured/?russian",
+    "chefName": "Dimitrios Papadopoulos",
+    "rating": 4.6,
+    "origin": "Greece"
+    }
+    ]
+    }
+    
+    
+    
+    
+    

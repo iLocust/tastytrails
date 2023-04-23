@@ -1,45 +1,156 @@
 {
     "foods": [
-      {
+        {
         "id": 1,
         "name": "Nasi Goreng",
-        "photo": "https://example.com/nasi-goreng.jpg",
+        "photo": "https://source.unsplash.com/featured/?friedrice",
         "chefName": "John Doe",
         "rating": 4.5,
         "origin": "Indonesia"
-      },
-      {
+        },
+        {
         "id": 2,
         "name": "Sushi",
-        "photo": "https://example.com/sushi.jpg",
+        "photo": "https://source.unsplash.com/featured/?sushi",
         "chefName": "Jane Doe",
         "rating": 4.8,
         "origin": "Japan"
-      },
-      {
+        },
+        {
         "id": 3,
         "name": "Pizza",
-        "photo": "https://example.com/pizza.jpg",
+        "photo": "https://source.unsplash.com/featured/?pizza",
         "chefName": "Mario Rossi",
         "rating": 4.2,
         "origin": "Italy"
-      },
-      {
+        },
+        {
         "id": 4,
         "name": "Taco",
-        "photo": "https://example.com/taco.jpg",
+        "photo": "https://source.unsplash.com/featured/?taco",
         "chefName": "Maria Hernandez",
         "rating": 4.6,
         "origin": "Mexico"
-      },
-      {
+        },
+        {
         "id": 5,
         "name": "Pad Thai",
-        "photo": "https://example.com/pad-thai.jpg",
+        "photo": "https://source.unsplash.com/featured/?tomyum",
         "chefName": "Somchai Prasert",
         "rating": 4.4,
         "origin": "Thailand"
-      }
-    ]
-  }
-  
+        },
+        {
+        "id": 6,
+        "name": "Biryani",
+        "photo": "https://source.unsplash.com/featured/?biryani",
+        "chefName": "Rahul Sharma",
+        "rating": 4.7,
+        "origin": "India"
+        },
+        {
+        "id": 7,
+        "name": "Falafel",
+        "photo": "https://source.unsplash.com/featured/?falafel",
+        "chefName": "Ahmed Khalil",
+        "rating": 4.3,
+        "origin": "Middle East"
+        },
+        {
+        "id": 8,
+        "name": "Pho",
+        "photo": "https://source.unsplash.com/featured/?pho",
+        "chefName": "Nguyen Thi",
+        "rating": 4.6,
+        "origin": "Vietnam"
+        },
+        {
+        "id": 9,
+        "name": "Ramen",
+        "photo": "https://source.unsplash.com/featured/?ramen",
+        "chefName": "Taro Tanaka",
+        "rating": 4.8,
+        "origin": "Japan"
+        },
+        {
+        "id": 10,
+        "name": "Churros",
+        "photo": "https://source.unsplash.com/featured/?churros",
+        "chefName": "Luis Rodriguez",
+        "rating": 4.4,
+        "origin": "Spain"
+        },
+        {
+        "id": 11,
+        "name": "Goulash",
+        "photo": "https://source.unsplash.com/featured/?goulash",
+        "chefName": "Peter Nagy",
+        "rating": 4.5,
+        "origin": "Hungary"
+        },
+        {
+        "id": 12,
+        "name": "Kimchi",
+        "photo": "https://source.unsplash.com/featured/?kimchi",
+        "chefName": "Lee Min-ho",
+        "rating": 4.2,
+        "origin": "Korea"
+        },
+        {
+        "id": 13,
+        "name": "Poutine",
+        "photo": "https://source.unsplash.com/featured/?poutine",
+        "chefName": "Jean-Luc Beauclair",
+        "rating": 4.7,
+        "origin": "Canada"
+        },
+        {
+        "id": 14,
+        "name": "Peking Duck",
+        "photo": "https://source.unsplash.com/featured/?peking",
+        "chefName": "Li Wei",
+        "rating": 4.9,
+        "origin": "China"
+        },
+        {
+        "id": 15,
+        "name": "Moussaka",
+        "photo": "https://source.unsplash.com/featured/?russian",
+        "chefName": "Dimitrios Papadopoulos",
+        "rating": 4.6,
+        "origin": "Greece"
+        }
+        ],
+        "foodDetails": [
+            {
+              "id": 1,
+              "ingredients": [
+                "nasi",
+                "minyak goreng",
+                "bawang merah",
+                "bawang putih",
+                "ayam",
+                "telur",
+                "kecap",
+                "garam"
+              ],
+              "cookingInstructions": "1. Panaskan minyak goreng. 2. Tumis bawang merah dan bawang putih hingga harum. 3. Masukkan ayam dan goreng hingga matang. 4. Masukkan telur dan aduk-aduk. 5. Tambahkan nasi, kecap, dan garam. 6. Aduk-aduk hingga rata. 7. Sajikan."
+            },
+            {
+              "id": 2,
+              "ingredients": [
+                "tepung",
+                "air",
+                "susu",
+                "keju",
+                "saus tomat",
+                "daging sapi",
+                "jagung",
+                "jamur",
+                "bawang bombay"
+              ],
+              "cookingInstructions": "1. Siapkan adonan pizza. 2. Panaskan oven. 3. Tumis bawang bombay hingga harum. 4. Tambahkan daging sapi dan goreng hingga matang. 5. Letakkan adonan pizza di atas loyang. 6. Tambahkan saus tomat, jagung, jamur, daging sapi, dan keju. 7. Panggang selama 20 menit. 8. Sajikan."
+            }
+          ]
+        }
+        
